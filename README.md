@@ -7,5 +7,5 @@ Please make sure try it with pc or laptop users.
 
 installation:
 
-sudo apt update, > sudo apt install git > sudo apt install python3 > sudo apt
+sudo apt update > sudo apt install python3 > sudo apt
 install git > git clone: https://github.com/ryle-barak/WazaaGhost.git > cd Wazaa-trojan > python3 Waza.py
