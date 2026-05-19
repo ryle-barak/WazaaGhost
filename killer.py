@@ -57,7 +57,10 @@ def start_http_server():
     server.serve_forever()
 
 if __name__ == "__main__":
-    print(ASCII_ART)
+    for i in range(max(len(text), len(art))):
+        left = text[i] if i < len(text) else ""
+        right = art[i] if i < len(art) else ""
+        print(RED + left.ljust(70) + right + RESET)
 
     print("[*] Starting HTTP server on port", PAYLOAD_PORT)
 
