@@ -19,3 +19,5 @@ git clone https://github.com/ryle-barak/killer-DoS.git
 cd killer-dos/
 
 python3 killer.py
+
+""probably this repo have some errors like double print of ASCII ART""
